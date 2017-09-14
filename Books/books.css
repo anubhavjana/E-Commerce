@@ -1,0 +1,104 @@
+body
+{
+ background-image:url("http://az616578.vo.msecnd.net/files/2016/07/22/6360482202963037341753542185_stack_of_books.jpg");
+ background-size:cover;
+ position:relative;
+ height:50%;
+margin:0;
+padding:0;
+height:100%;
+width:100%;
+overflow:scroll;
+overflow-x:hidden;
+}
+h1
+{
+ font-family:Palatino 'Palatino linotype' serif;
+ color:#2e69a3;
+ text-align:center;
+}
+.hero img
+{
+ width:50px;
+ height:50px;
+}
+.hero li
+{
+ display:inline-block;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    float:right;
+    top:0;
+    position:absolute;  right:0; 
+
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+.city li
+{
+ display:inline-block
+}
+.city h3
+{
+font-family:Georgia,serif;
+font-size: 22px;
+color:red;
+
+}
+.city img
+{
+ width:80px;
+ height:100px;
+}
+.subscribe-content
+{
+ float:right;
+}
+html
+{
+ margin:0;
+ padding:0;
+height:100%
+width:100%
+overflow:hidden;
+}
+.banner
+{
+ margin:0px auto;
+ padding:0;
+ height:10%;
+ width:100%;
+ overflow:hidden;
+ border:solid;
+ background-color:blue;
+border-color:81daf5;
+border-width:0px 0px 5px 0px;
+}
+
+@keyframes example 
+{
+    from {background-color:yellow;}
+    to {background-color:orange;}
+}
+.description
+{
+color:yellow;
+text-align:center;
+
+}
+
+.w3-content{
+    padding-top: 200px; 
+}
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-commerce</title>
+<link rel="stylesheet" type="text/css" href="books.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+</head>
+<body>
+<div class="w3-content w3-section" style="max-width:400px; float: right;">
+  <img class="mySlides" src="https://4.bp.blogspot.com/-gfnptmmQ6mk/T5LvaAOLGFI/AAAAAAAAAEw/5vblvV0n4gY/s1600/harry-potter-books.jpg" height="350" width="350">
+  <img class="mySlides" src="http://ecx.images-amazon.com/images/I/51m0wvVXZ1L._SX319_BO1,204,203,200_.jpg" height="350" width="350">
+  <img class="mySlides" src="http://www.chetanbhagat.com/wp-content/uploads/Front.jpg" height="350" width="350">
+  <img class="mySlides" src="https://4.bp.blogspot.com/-gfnptmmQ6mk/T5LvaAOLGFI/AAAAAAAAAEw/5vblvV0n4gY/s1600/harry-potter-books.jpg" height="350" width="350">
+  <img class="mySlides" src="https://www.mumsnet.com/system/1/assets/files/000/008/178/8178/8049cc122/original/TheHobbitflatcovercopy.PNG" height="350" width="350">
+  <img class="mySlides" src="http://nightowlreader.com/wp-content/uploads/2015/02/Wynn-in-Doubt-by-Emily-Hemmer54e3f95094a85.jpg" height="350" width="350">
+  <img class="mySlides" src="https://artsandculturereviews.files.wordpress.com/2014/07/top-10-best-seller-books-1-a-tale-of-two-cities-by-charles-dickens.jpg" height="350" width="350">
+  <img class="mySlides" src="http://ecx.images-amazon.com/images/I/51VQG9QHiaL._SX320_BO1,204,203,200_.jpg" height="350" width="350">
+</div>
+
+</div>
+<div class="hero">
+<ul>
+<li><h1><b>FunkOkart</b></h1></li>
+<li><img src="https://t3.ftcdn.net/jpg/01/18/11/44/500_F_118114404_UYWGxiy3A7D5nH3QLFMdxtm79d70TIWn.jpg"></li>
+
+</ul>
+</div>
+<div class="description">
+<p>Welcome to FunkOKart !! This is the world's largest e-commerce website !! Buy Books at 10% discount!Here are a list of books on your left  that are availabe in our store.DO HURRY UP limited offer!</p>
+</div>
+<div class="city">
+<ul>
+<li><h3>Harry Potter Series</h3></li>
+<button type="submit"><b>Buy Now</b></button><br>
+<li><img src="https://4.bp.blogspot.com/-gfnptmmQ6mk/T5LvaAOLGFI/AAAAAAAAAEw/5vblvV0n4gY/s1600/harry-potter-books.jpg"></li><br>
+<li><h3>The Fault In Our Stars</h3></li>
+<button type="submit"><b>Buy Now</b></button><br>
+<li><img src="http://ecx.images-amazon.com/images/I/81FGjPtdvnL.jpg"></li><br>
+<li><h3>The Immortals Of Meluha</h3></li>
+<button type="submit"><b>Buy Now</b></button><br>
+<li><img src="http://ecx.images-amazon.com/images/I/51m0wvVXZ1L._SX319_BO1,204,203,200_.jpg"></li><br>
+<li><h3><a href="http://www.amazon.in/Indian-Girl-Gujarati-Chetan-Bhagat/dp/935122595X?tag=googinhydr18418-21&tag=googinkenshoo-21&ascsubtag=03fbe7c2-bf6d-42b3-8d25-9a9de34ed287">One Indian Girl</a></h3></li>
+<button type="submit"><b>Buy Now</b></button><br>
+<li><img src="http://www.chetanbhagat.com/wp-content/uploads/Front.jpg"></li><br>
+<li><h3>The Hobbit</h3></li>
+<button type="submit"><b>Buy Now</b></button><br>
+<li><img src="https://www.mumsnet.com/system/1/assets/files/000/008/178/8178/8049cc122/original/TheHobbitflatcovercopy.PNG"></li><br>
+<li><h3>Wynn In Doubt</h3></li>
+<button type="submit"><b>Buy Now</b></button><br>
+<li><img src="http://nightowlreader.com/wp-content/uploads/2015/02/Wynn-in-Doubt-by-Emily-Hemmer54e3f95094a85.jpg"></li><br>
+<li><h3>A Tale Of Two Cities</h3></li>
+<button type="submit"><b>Buy Now</b></button><br>
+<li><img src="https://artsandculturereviews.files.wordpress.com/2014/07/top-10-best-seller-books-1-a-tale-of-two-cities-by-charles-dickens.jpg"></li>
+<button type="submit"><b>Buy Now</b></button><br>
+<li><h3><a href="http://www.amazon.in/Indian-Girl-Gujarati-Chetan-Bhagat/dp/935122595X?tag=googinhydr18418-21&tag=googinkenshoo-21&ascsubtag=03fbe7c2-bf6d-42b3-8d25-9a9de34ed287">One Indian Girl</a></h3></li>
+<button type="submit"><b>Buy Now</b></button><br>
+<li><img src="http://ecx.images-amazon.com/images/I/51VQG9QHiaL._SX320_BO1,204,203,200_.jpg"></li><br>
+</ul>
+</div>
+<button type="submit"><b>Cart</b></button>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

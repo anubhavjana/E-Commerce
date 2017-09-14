@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-commerce</title>
+<link rel="stylesheet" type="text/css" href="egadgets.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+<div class="w3-content w3-section" style="max-width:400px; float: right;">
+  <img class="mySlides" src="https://www.o2.co.uk/shop/homepage/images/shop15/brand/apple/iphone-7-plus/apple-iphone-7-plus-gallery-img-6.jpg" height="350" width="350">
+  <img class="mySlides" src="https://www.notebookcheck.net/fileadmin/_processed_/csm_4zu3_vx15_d0bac9d0f2.jpg" height="350" width="350">
+  <img class="mySlides" src="http://cdn01.androidauthority.net/wp-content/uploads/2016/03/Samsung-Galaxy-S7-Edge-photos-16-840x560.jpg" height="350" width="350">
+  <img class="mySlides" src="http://www.igyaan.in/wp-content/uploads/2013/06/Sony-4K-33.jpg" height="350" width="350">
+  <img class="mySlides" src="https://n2.sdlcdn.com/imgs/a/o/g/LG-T72FFC22P-Top-Load-6-SDL391886050-1-b9b98.JPG" height="350" width="350">
+  <img class="mySlides" src="https://farm9.staticflickr.com/8611/16371511830_b50fa11fbf_o.jpg" height="350" width="350">
+  <img class="mySlides" src="http://www.indialivetoday.com/wp-content/uploads/2016/05/SRS-XB3-Green-_1_-820x420.jpg" height="350" width="350">
+  <img class="mySlides" src="http://cdn.images.express.co.uk/img/dynamic/59/590x/Apple-MacBook-Pro-2016-release-721681.jpg" height="350" width="350">
+</div>
+<div class="hero">
+<ul>
+<li><h1><b>FunkOkart</b></h1></li>
+<li><img src="https://t3.ftcdn.net/jpg/01/18/11/44/500_F_118114404_UYWGxiy3A7D5nH3QLFMdxtm79d70TIWn.jpg"></li>
+</ul>
+</div>
+<div class="description">
+<p>Welcome to FunkOKart !! This is the world's largest e-commerce website !! Buy Our Electronic Gadgets at 10% discount!Here are a list of gadgets on your left  that are availabe in our store.DO HURRY UP limited offer!</p>
+</div>
+<div class="city">
+<ul>
+<li><h3>Iphone 7</h3></li><br>
+<li><img src="https://www.o2.co.uk/shop/homepage/images/shop15/brand/apple/iphone-7-plus/apple-iphone-7-plus-gallery-img-6.jpg"></li><br>
+<li><h3>Acer Aspire VX 15</li><br>
+<li><img src="https://www.notebookcheck.net/fileadmin/_processed_/csm_4zu3_vx15_d0bac9d0f2.jpg"></li><br>
+<li><h3>Samsung Galaxy S7 edge</li><br>
+<li><img src="http://cdn01.androidauthority.net/wp-content/uploads/2016/03/Samsung-Galaxy-S7-Edge-photos-16-840x560.jpg"></li><br>
+<li><h3>Sony Bravia 65</li><br>
+<li><img src="http://www.igyaan.in/wp-content/uploads/2013/06/Sony-4K-33.jpg"></li><br>
+<li><h3>LG Washing Machine</li><br>
+<li><img src="https://n2.sdlcdn.com/imgs/a/o/g/LG-T72FFC22P-Top-Load-6-SDL391886050-1-b9b98.JPG"></li><br>
+<li><h3>Mi PowerBank</li><br>
+<li><img src="https://farm9.staticflickr.com/8611/16371511830_b50fa11fbf_o.jpg"></li><br>
+<li><h3>Sony SRS XB3 Speaker</li><br>
+<li><img src="http://www.indialivetoday.com/wp-content/uploads/2016/05/SRS-XB3-Green-_1_-820x420.jpg"/li><br>
+<li><h3>Apple Macbook Pro 13</li><br>
+<li><img src="http://cdn.images.express.co.uk/img/dynamic/59/590x/Apple-MacBook-Pro-2016-release-721681.jpg"></li><br>
+</ul>
+<button type="submit"><b>Cart</b></button>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

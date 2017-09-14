@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-commerce</title>
+<link rel="stylesheet" type="text/css" href="clothes.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+<div class="w3-content w3-section" style="max-width:400px; float: right;">
+  
+  <img class="mySlides" src="https://n2.sdlcdn.com/imgs/b/d/i/Woodland-Red-Polo-Neck-T-SDL270349453-1-6dc9a.jpg" height="350" width="350">
+  <img class="mySlides" src="https://cdnc.lystit.com/photos/2893-2015/03/19/zara-russet-gathered-front-tank-top-product-4-516007588-normal.jpeg" height="350" width="350">
+  <img class="mySlides" src="http://frankvinyl.com/wp-content/uploads/2017/01/frankvinyl_fray_jeans1.jpg" height="350" width="350">
+  <img class="mySlides" src="http://www.lesitedelasneaker.com/wp-content/images/2015/03/nike-air-max-st-retro-mars-2015-2.jpg" height="350" width="350">
+  <img class="mySlides" src="https://cdn-img-0.wanelo.com/p/c39/572/d17/88f208d3dffd0c16e93b555/x354-q80.jpg" height="350" width="350">
+  <img class="mySlides" src="http://lsco2.scene7.com/is/image/lsco/Levi/clothing/005010115-front-grid.jpg" height="350" width="350">
+  <img class="mySlides" src="https://s-media-cache-ak0.pinimg.com/736x/ab/21/ed/ab21ed7d76cac885e3e879b9d0c81179.jpg" height="350" width="350">
+  <img class="mySlides" src="http://www.zodiaconline.com/z/retail/product/portalrepository/images/productsku/ZODIACSHIRTS_Carulli1_100_cotton_Chx_008_FSSC_CAC_Pink_19_38_0_z.jpg" height="350" width="350">
+</div>
+<div class="hero">
+<ul>
+<li><h1><b>FunkOkart</b></h1></li>
+<li><img src="https://t3.ftcdn.net/jpg/01/18/11/44/500_F_118114404_UYWGxiy3A7D5nH3QLFMdxtm79d70TIWn.jpg"></li>
+
+</ul>
+</div>
+<div class="city">
+<ul>
+<li><h3>Woodland T-Shirt</h3></li><br>
+<li><img src="https://n2.sdlcdn.com/imgs/b/d/i/Woodland-Red-Polo-Neck-T-SDL270349453-1-6dc9a.jpg"></li><br>
+<li><h3>Zara Tank Top</li><br>
+<li><img src="https://cdnc.lystit.com/photos/2893-2015/03/19/zara-russet-gathered-front-tank-top-product-4-516007588-normal.jpeg"></li><br>
+<li><h3>Calio Jeans</li><br>
+<li><img src="http://frankvinyl.com/wp-content/uploads/2017/01/frankvinyl_fray_jeans1.jpg"></li><br>
+<li><h3>Nike Air Max</li><br>
+<li><img src="http://www.lesitedelasneaker.com/wp-content/images/2015/03/nike-air-max-st-retro-mars-2015-2.jpg"></li><br>
+<li><h3>Calvin Klein Shirt</li><br>
+<li><img src="https://cdn-img-0.wanelo.com/p/c39/572/d17/88f208d3dffd0c16e93b555/x354-q80.jpg"></li><br>
+<li><h3>Levi Jeans</li><br>
+<li><img src="http://lsco2.scene7.com/is/image/lsco/Levi/clothing/005010115-front-grid.jpg"></li><br>
+<li><h3>Elle Gowns</li><br>
+<li><img src="https://s-media-cache-ak0.pinimg.com/736x/ab/21/ed/ab21ed7d76cac885e3e879b9d0c81179.jpg"></li><br>
+<li><h3>Zodiac Shirt</li><br>
+<li><img src="http://www.zodiaconline.com/z/retail/product/portalrepository/images/productsku/ZODIACSHIRTS_Carulli1_100_cotton_Chx_008_FSSC_CAC_Pink_19_38_0_z.jpg"></li><br>
+</ul>
+<button type="submit"><b>Cart</b></button>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

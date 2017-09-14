@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-commerce</title>
+<link rel="stylesheet" type="text/css" href="toys.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+<div class="w3-content w3-section" style="max-width:400px; float: right;">
+  <img class="mySlides" src="https://shopswell-com-prod.s3.amazonaws.com/assets/ce5b7486-3a53-4773-8a4d-a68d62d919e1/HOTW-2359_MiniCollections_top_marquee_module_promo_v01_tcm860-239721.jpg" height="350" width="350">
+  <img class="mySlides" src="http://ecx.images-amazon.com/images/I/51Ba4p67acL.jpg" height="350" width="350">
+  <img class="mySlides" src="http://www.edelmanfinancial.com/-/media/images/blog/the-game-of-liiifffeee.jpg" height="350" width="350">
+  <img class="mySlides" src="https://www.dhresource.com/aktdesc_950813698_00.jpg" height="350" width="350">
+  <img class="mySlides" src="http://orig15.deviantart.net/be15/f/2014/025/2/7/ultimate_monopoly_by_jonizaak-d5wgqgs.png" height="350" width="350">
+  <img class="mySlides" src="http://www.toyloco.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/1/2186-4.jpg" height="350" width="350">
+  <img class="mySlides" src="https://sc01.alicdn.com/kf/HTB1dvvmOXXXXXXJXFXXq6xXFXXXj/Popular-pokemon-mascot-plush-toys-wholesale-stuffed.jpg" height="350" width="350">
+  <img class="mySlides" src="https://i.ytimg.com/vi/8F7pLN4Up7Y/hqdefault.jpg" height="350" width="350">
+</div>
+<div class="hero">
+<ul>
+<li><h1><b>FunkOkart</b></h1></li>
+<li><img src="https://t3.ftcdn.net/jpg/01/18/11/44/500_F_118114404_UYWGxiy3A7D5nH3QLFMdxtm79d70TIWn.jpg"></li>
+</ul>
+</div>
+<div class="city">
+<ul>
+<li><h3>Hot Wheels</h3></li><br>
+<li><img src="https://shopswell-com-prod.s3.amazonaws.com/assets/ce5b7486-3a53-4773-8a4d-a68d62d919e1/HOTW-2359_MiniCollections_top_marquee_module_promo_v01_tcm860-239721.jpg"></li><br>
+<li><h3>Barbie</li><br>
+<li><img src="http://ecx.images-amazon.com/images/I/51Ba4p67acL.jpg"></li><br>
+<li><h3>Game of Life</li><br>
+<li><img src="http://www.edelmanfinancial.com/-/media/images/blog/the-game-of-liiifffeee.jpg"></li><br>
+<li><h3>Beyblade</li><br>
+<li><img src="https://www.dhresource.com/aktdesc_950813698_00.jpg"></li><br>
+<li><h3>Monopoly</li><br>
+<li><img src="http://orig15.deviantart.net/be15/f/2014/025/2/7/ultimate_monopoly_by_jonizaak-d5wgqgs.png"></li><br>
+<li><h3>Ferrari Remote Car</li><br>
+<li><img src="http://www.toyloco.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/1/2186-4.jpg"></li><br>
+<li><h3>Pokemon Soft Toys</li><br>
+<li><img src="https://sc01.alicdn.com/kf/HTB1dvvmOXXXXXXJXFXXq6xXFXXXj/Popular-pokemon-mascot-plush-toys-wholesale-stuffed.jpg"></li><br>
+<li><h3>Singing Doll</li><br>
+<li><img src="https://i.ytimg.com/vi/8F7pLN4Up7Y/hqdefault.jpg"></li><br>
+</ul>
+</div>
+<button type="submit"><b>Cart</b></button>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.hero img
+{
+ width:50px;
+ height:50px;
+}
+body
+{
+ background-image:url("https://www.isitonline.com/wp-content/uploads/2016/03/contactus-background-right.jpg");
+ background-size:cover;
+ position:relative;
+ height:50%;
+}
+h3
+{
+text-align:center;
+}
+li
+{
+	text-align:center;
+}
+h1
+{
+ font-family:Palatino 'Palatino linotype' serif;
+ color:#2e69a3;
+ text-align:center;
+}
+.hero img
+{
+ width:50px;
+ height:50px;
+}
+ul
+{	
+  list-style-type: none;
+
+}
